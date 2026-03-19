@@ -1,0 +1,3 @@
+.env
+network_health_log.csv
+__pycache__/

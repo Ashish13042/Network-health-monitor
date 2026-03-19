@@ -1,0 +1,13 @@
+
+    <html><head><title>IT Operations Status Board</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f9; padding: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; font-weight: bold; }
+        th { background-color: #333; color: white; }
+        .up { background-color: #d4edda; color: #155724; }
+        .down { background-color: #f8d7da; color: #721c24; }
+    </style></head><body>
+    <h1>Live Infrastructure Status</h1>
+    <table><tr><th>Device Name</th><th>IP Address</th><th>Status</th></tr>
+    <tr class="up"><td>Gateway Router</td><td>192.168.1.1</td><td>UP</td></tr><tr class="down"><td>Main ERP Node</td><td>10.0.0.5</td><td>DOWN</td></tr><tr class="up"><td>Hardware Tool Controller</td><td>127.0.0.1</td><td>UP</td></tr><tr class="down"><td>Failing System (Test)</td><td>192.0.2.1</td><td>DOWN</td></tr></table></body></html>
